@@ -1,0 +1,293 @@
+<html>
+<head>
+<script type="text/javascript" src="fusioncharts.js"></script>
+<script type="text/javascript">
+FusionCharts.ready(function () {
+    var cSatScoreChart = new FusionCharts({
+        type: 'angulargauge',
+        renderAt: 'chart-container',
+        width: '750',
+        height: '750',
+		bgcolor: '000000',
+        dataFormat: 'json',
+        dataSource: 
+		{
+    "chart": {
+	
+        "manageresize": "0",
+        "origw": "300",
+        "origh": "300",
+        "managevalueoverlapping": "1",
+        "autoaligntickvalues": "1",
+        "tickvaluedistance": "10",
+        "bgcolor": "000000",
+		"bgAlpha":"100",
+        "upperlimit": "10",
+        "lowerlimit": "0",
+		"basefont": "Transformers Movie",
+        "basefontcolor": "1A8CFF",
+		"basefontsize": "35",
+        "majortmnumber": "9",
+        "majortmcolor": "1A8CFF",
+        "majortmheight": "18",
+		"majorTMThickness": "5",
+        "minortmnumber": "4",
+        "minortmcolor": "1A8CFF",
+        "minortmheight": "10",
+		"minorTMThickness": "3",
+        "showgaugeborder": "0",
+        "gaugeouterradius": "150",
+        "gaugeinnerradius": "135",
+        "gaugeoriginx": "150",
+        "gaugeoriginy": "210",
+        "gaugealpha": "50",
+        "placevaluesinside": "10",
+        "gaugefillmix": "",
+        "showshadow": "50",
+        "annrenderdelay": "0",
+        "pivotradius": "8",
+        "pivotfillmix": "{1A8CFF}",
+        "pivotbordercolor": "000000",
+        "pivotfillratio": "70,30",
+	"bordercolor": "#000000",
+"borderAlpha": "100",
+        "showborder": "0",
+        "gaugestartangle": "215",
+        "gaugeendangle": "20",
+		"showToolTip":"0",
+		"startUpdate": "1",
+		"datastreamurl": "rpm.html",
+        "refreshinterval": "1"
+		
+    },
+    
+    "dials": {
+        "dial": [
+            {
+                "value": "8",
+                "bgcolor": "1A8CFF,1A8CFF",
+                "borderalpha": "10",
+                "basewidth": "15",
+                "topwidth": "1"
+				
+            }
+        ]
+    },
+	"trendpoints": {
+        "point": [
+            {
+                "startvalue": "4",
+                "color": "000000",
+                "alpha": "1",
+                "thickness": "5",
+                "radius": "200",
+                "innerradius": "-60",
+                "displayvalue": "RPM x 1000"
+				
+            }
+        ]
+	}
+	
+    
+}
+    });
+    cSatScoreChart.render();
+});
+</script>
+<script type="text/javascript">
+FusionCharts.ready(function () {
+    var cSatScoreChart1 = new FusionCharts({
+        type: 'angulargauge',
+        renderAt: 'chart-container1',
+        width: '800',
+        height: '400',
+		bgcolor: '000000',
+        dataFormat: 'json',
+        dataSource: 
+		{
+    "chart": {
+	
+        "manageresize": "0",
+        "origw": "460",
+        "origh": "460",
+        "managevalueoverlapping": "5",
+        "autoaligntickvalues": "1",
+        "tickvaluedistance": "10",
+        "bgcolor": "000000",
+		"bgAlpha":"100",
+	"upperlimit": "200",
+        "lowerlimit": "0",
+       
+		"basefont": "Transformers Movie",
+        "basefontcolor": "1A8CFF",
+		"basefontsize": "100",
+        "majortmnumber": "0",
+        "majortmcolor": "00000",
+        "majortmheight": "18",
+		"majorTMThickness": "0",
+        "minortmnumber": "0",
+        "minortmcolor": "00000",
+        "minortmheight": "10",
+		"minorTMThickness": "3",
+"showValue": "1",
+        "showgaugeborder": "1",
+        "gaugeouterradius": "350",
+        "gaugeinnerradius": "150",
+        "gaugeoriginx": "110",
+        "gaugeoriginy": "210",
+        "gaugealpha": "0",
+        "placevaluesinside": "0",
+        "gaugefillmix": "1",
+        "showshadow": "50",
+        "annrenderdelay": "0",
+        "pivotradius": "14",
+        "pivotfillmix": "{000000}",
+        "pivotbordercolor": "000000",
+        "pivotfillratio": "70,30",
+        "showborder": "0",
+        "gaugestartangle": "230",
+        "gaugeendangle": "-50",
+		"showToolTip":"0",
+		"startUpdate": "1",
+		"datastreamurl": "speed.html",
+        "refreshinterval": "1"
+		
+    },
+    
+    "dials": {
+        "dial": [
+            {
+                "basefontcolor": "1A8CFF",
+                "bgcolor": "000000,000000",
+                "borderalpha": "1",
+                "basewidth": "0",
+                "topwidth": "0"
+				
+            }
+        ]
+    },
+	"trendpoints": {
+        "point": [
+            {
+                "startvalue": "200",
+                "color": "1A8CFF",
+                "alpha": "1",
+                "radius": "20",
+                "innerradius": "10",
+                "displayvalue": "KMPH"
+				
+            }
+        ]
+	}
+	
+    
+}
+    });
+    cSatScoreChart1.render();
+});
+</script>
+<script type="text/javascript">
+FusionCharts.ready(function () {
+    var cSatScoreChart2 = new FusionCharts({
+        type: 'angulargauge',
+        renderAt: 'chart-container2',
+        width: '800',
+        height: '400',
+		bgcolor: '000000',
+        dataFormat: 'json',
+        dataSource: 
+		{
+    "chart": {
+	
+        "manageresize": "0",
+        "origw": "500",
+        "origh": "500",
+        "managevalueoverlapping": "5",
+        "autoaligntickvalues": "1",
+        "tickvaluedistance": "20",
+        "bgcolor": "000000",
+		"bgAlpha":"100",
+        "upperlimit": "100",
+        "lowerlimit": "0",
+		"basefont": "Transformers Movie",
+        "basefontcolor": "1A8CFF",
+		"basefontsize": "18",
+        "majortmnumber": "6",
+        "majortmcolor": "1A8CFF",
+        "majortmheight": "18",
+		"majorTMThickness": "5",
+        "minortmnumber": "4",
+        "minortmcolor": "1A8CFF",
+        "minortmheight": "10",
+		"minorTMThickness": "3",
+
+        "showgaugeborder": "0",
+        "gaugeouterradius": "150",
+        "gaugeinnerradius": "135",
+        "gaugeoriginx": "850",
+        "gaugeoriginy": "210",
+        "gaugealpha": "50",
+        "placevaluesinside": "1",
+        "gaugefillmix": "",
+        "showshadow": "50",
+        "annrenderdelay": "0",
+        "pivotradius": "14",
+        "pivotfillmix": "{1A8CFF}",
+        "pivotbordercolor": "000000",
+        "pivotfillratio": "70,30",
+        "showborder": "0",
+        "gaugestartangle": "290",
+        "gaugeendangle": "35",
+		"showToolTip":"0",
+		"startUpdate": "1",
+		"datastreamurl": "temp.html",
+        "refreshinterval": "1"
+		
+    },
+    
+    "dials": {
+        "dial": [
+            {
+                "value": "10",
+                "bgcolor": "1A8CFF,1A8CFF",
+                "borderalpha": "1",
+                "basewidth": "15",
+                "topwidth": "1"
+				
+            }
+        ]
+    },
+	"trendpoints": {
+        "point": [
+            {
+                "startvalue": "100",
+                "color": "000000",
+                "alpha": "1",
+                "radius": "80",
+                "innerradius": "70",
+                "displayvalue": "*C"
+				
+            }
+        ]
+	}
+	
+    
+}
+    });
+    cSatScoreChart2.render();
+});
+</script>
+<body bgcolor="#000000">
+<div style="bgcolor:white; width:100px; height:100px position:fixed; left:400px; top:400px; z-index:100; ">sample page</div>
+<table width="100%" border="0" bgcolor="#000000">
+<tr>
+<td width="20%" align="center" valign="bottom"bgcolor="#000000"><div id="chart-container2">FusionCharts will render here</div></td>
+<td width="60%" align="center"bgcolor="#000000"><div id="chart-container">FusionCharts will render here</div></td>
+<td width="20%" align="center" valign="bottom"bgcolor="#000000"><div id="chart-container1">FusionCharts will render here</div></td>
+</tr>
+</table>
+
+	
+	
+</body>
+</html>

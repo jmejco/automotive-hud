@@ -1,0 +1,146 @@
+<html>
+<head>
+<script type="text/javascript" src="fusioncharts.js"></script>
+<script type="text/javascript">
+FusionCharts.ready(function () {
+    var cSatScoreChart = new FusionCharts({
+        type: 'angulargauge',
+        renderAt: 'chart-container',
+        width: '500',
+        height: '500',
+		bgcolor: '000000',
+        dataFormat: 'json',
+        dataSource: 
+{
+    "chart": {
+        "manageresize": "1",
+        "origw": "200",
+        "origh": "190",
+        "bgcolor": "FFFFFF",
+		"bgAlpha":"100",
+        "lowerlimit": "0",
+        "upperlimit": "55",
+        "majortmnumber": "7",
+        "showtickvalues": "0",
+        "majortmheight": "8",
+        "minortmnumber": "0",
+        "showtooltip": "0",
+        "majortmthickness": "3",
+        "gaugeouterradius": "130",
+        "gaugeoriginx": "100",
+        "gaugeoriginy": "160",
+        "gaugestartangle": "125",
+        "gaugeendangle": "55",
+        "placevaluesinside": "1",
+        "gaugeinnerradius": "115",
+        "annrenderdelay": "0",
+        "pivotfillmix": "{000000},{FFFFFF}",
+        "pivotfillratio": "50,50",
+        "showpivotborder": "1",
+        "pivotbordercolor": "444444",
+        "pivotborderthickness": "2",
+        "showshadow": "0",
+        "pivotradius": "18",
+        "pivotfilltype": "linear",
+        "showborder": "0",
+		"datastreamurl": "Meter.php",
+        "refreshinterval": "1"
+    },
+    "dials": {
+        "dial": [
+            {
+                "value": "10",
+                "borderalpha": "0",
+                "bgcolor": "FF0000",
+                "basewidth": "6",
+                "topwidth": "6",
+                "radius": "120"
+            }
+        ]
+    },
+    "trendpoints": {
+        "point": [
+            {
+                "startvalue": "0",
+                "displayvalue": "E",
+                "alpha": "0"
+            },
+            {
+                "startvalue": "55",
+                "displayvalue": "F",
+                "alpha": "0"
+            }
+        ]
+    },
+    "annotations": {
+        "groups": [
+            {
+                "x": "100",
+                "y": "160",
+                "items": [
+                    {
+                        "type": "arc",
+                        "x": "0",
+                        "y": "0",
+                        "radius": "145",
+                        "innerradius": "132",
+                        "startangle": "53",
+                        "endangle": "127",
+                        "showborder": "1",
+                        "bordercolor": "444444",
+                        "borderthickness": "2"
+                    },
+                    {
+                        "type": "arc",
+                        "x": "0",
+                        "y": "0",
+                        "radius": "145",
+                        "innerradius": "132",
+                        "startangle": "53",
+                        "endangle": "107",
+                        "showborder": "1",
+                        "color": "ffffff",
+                        "bordercolor": "444444",
+                        "borderthickness": "2"
+                    }
+                ]
+            },
+            {
+                "x": "$chartCenterX",
+                "y": "160",
+                "showbelow": "1",
+                "scaleimages": "1",
+                "items": [
+                    {
+                        "type": "image",
+                        "x": "+50",
+                        "y": "-100",
+                        "url": "Fuel.gif"
+                    }
+                ]
+            }
+        ]
+    }
+}
+		
+		
+		
+		
+		
+		
+    });
+    cSatScoreChart.render();
+});
+</script>
+</head>
+<body bgcolor="000000">
+<table width="100%" border="0">
+<tr>
+<td width="20%" align="center" valign="bottom"><div id="chart-container">FusionCharts will render here</div></td>
+</tr>
+</table>
+
+	
+	
+</body>
+</html>
